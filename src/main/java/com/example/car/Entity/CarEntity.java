@@ -26,4 +26,7 @@ public class CarEntity {
     private String car_power;
 
     private String engine;
+
+    private String path;
+
 }
