@@ -95,8 +95,8 @@
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Contact</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            <h2>reserve</h2>
+            <p>차량시승 예약 페이지입니다.</p>
 
           </div>
         </div>
@@ -114,7 +114,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>A108 Adam Street, New York, NY 535022(car panda 본사)</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -124,7 +124,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>carpanda@example.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -134,7 +134,7 @@
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55</p>
+                <p>+1 0099 55488 55</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -144,7 +144,7 @@
         <div class="row justify-content-center mt-4">
 
           <div class="col-lg-9">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/carreserve" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -154,22 +154,23 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="car" id="subject" placeholder="차종" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="days" rows="5" placeholder="날짜와 시간 그리고 지역" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
+
+
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
